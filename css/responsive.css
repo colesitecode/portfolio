@@ -1,0 +1,109 @@
+@media  (max-width: 1500px){
+    .works{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .works-col2{
+        width: 70%;
+    }
+}
+
+@media  (max-width: 1230px){
+    .Portfolio .container{
+        flex-direction: column;
+        height: auto;
+        width: 60%;
+        margin: 120px 0 0 180px;
+    }
+    .Portfolio .container .my-profile{
+        width: 100%;
+        margin: 0;
+        box-shadow: none;
+    }
+    .Portfolio .container .my-profile .background-profile{
+        width: 100%;
+    }
+    #resume-top-menu, #work-top-menu, #contact-top-menu{
+        display: block;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .top-nav-menu{
+        display: initial;
+    }
+    .works-col2{
+        width: 80%;
+    }
+    #about-top-menu, #resume-top-menu, #work-top-menu, #contact-top-menu{
+        padding-top: 85px;
+    }
+    .animation-background .box{
+        display: none;
+    }
+    .my-profile .btn .download{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .my-profile .btn .contact{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .Portfolio .container .my-profile h1{
+        margin-bottom: 8px;
+    }
+    .container .typed-text, h2{
+        margin-bottom: 15px;
+    }
+}
+@media  (max-width: 880px){
+    .Portfolio .container{
+        margin: 120px 0 0 150px;
+    }
+}
+@media  (max-width: 700px){
+    .Portfolio .container{
+        width: 70%;
+        margin: 120px 0 0 100px;
+    }
+}
+
+@media  (max-width: 600px){
+    .Portfolio .container{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .Portfolio .content .aboutme h3{
+        font-size: 18px;
+    }
+    .aboutme .info .col2 span{
+        font-size: 14.5px;
+    }
+    .work-title h2{
+        font-size: 15px;
+    }
+    .MySkills .col2 .work-title h2{
+        font-size: 15px;
+        }
+    .nav-menu{
+        left: 0;
+        top: -90px;
+    }
+    .Portfolio .container .my-profile{
+        margin-left: 0;
+        width: 100%;
+        box-shadow: none;
+    }
+    .nav-menu .menu{
+        display: flex;
+        width: 350px;
+        height: 90px;
+    }
+
+    .contact .col2 p{
+        font-size: 14.5px;
+        }
+    
+}
