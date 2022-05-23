@@ -467,6 +467,9 @@ body{
     border-image-slice: 1;
     margin-right: 10px;
 }
+#about-top-menu{
+    display: none;
+}
 
 
 
@@ -782,9 +785,6 @@ form textarea{
 }
 /***********CONTACT END***********/
 
-#resume-top-menu, #work-top-menu, #contact-top-menu{
-    display: none;
-}
 
 
 
