@@ -470,7 +470,14 @@ body{
 #about-top-menu{
     display: none;
 }
-
+#resume-top-menu{
+    display: none;
+}
+    
+#contact-top-menu{
+    display: none;
+}
+    
 
 
 /***********SERVICES***********/
